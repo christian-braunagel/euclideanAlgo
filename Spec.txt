@@ -1,0 +1,5 @@
+1. User can input two values
+2. Values are checked for natural numbers
+3. The greatest common divisor of both values is calculated
+4. The program outputs the greatest common divisor
+5. The program outputs the time needed for calculation

@@ -1,0 +1,15 @@
+{
+  "name": "euclidalgo",
+  "version": "1.0.0",
+  "description": "Calculating the euclidean algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test:unit": "mocha 'src/test/unit_suite/*.unit.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "author": "Christian Braunagel",
+  "license": "ISC"
+}
