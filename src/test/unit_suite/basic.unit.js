@@ -25,15 +25,15 @@ describe('Specification of behaviour of euclidean algorithm program', () => {
 
     it('should return an error message', () => {
         const result = euclideanAlgo(1);
-        expect(result).to.equal("The euclidean algo needs two parameters.");
+        expect(result).to.equal("The euclidean algo needs two input parameters.");
     })
 
-    it('should return an error message', () => {
+    it('should return the greatest common divisor', () => {
         const result = euclideanAlgo(663578, 3554);
         expect(result).to.equal(2);
     })
 
-    it('should return an error message', () => {
+    it('should return the greatest common divisor', () => {
         const result = euclideanAlgo(188, 376);
         expect(result).to.equal(188);
     })
