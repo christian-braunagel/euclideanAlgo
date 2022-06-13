@@ -10,7 +10,20 @@ export function euclideanAlgo(a, b){
         return 'The euclidean algo is only defined for natural numbers > 0.';
     }
 
-    
+    /********* Euclidean algo *********/
+    // sort according to size
+    let q = a > b ? a : b;
+    let p = a > b ? b : a;
 
-    return 0;
+    // declare & init r
+    let r = q;
+
+    do{
+        r = q%p;
+        q = p;
+        p = r;
+
+    }while(r>1);
+
+    return q;
 }
